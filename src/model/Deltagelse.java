@@ -24,4 +24,12 @@ public class Deltagelse {
                 ", begrundelse='" + begrundelse + '\'' +
                 '}';
     }
+
+    // association --> 0..1 Spiller
+    Spiller spiller; // nullable, OBS: package visibility
+
+    //* Note: Nullable return value. */
+    public Spiller getSpiller() {
+        return spiller;
+    }
 }
