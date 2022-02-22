@@ -16,4 +16,10 @@ public class Spiller {
     public int getÅrgang() {
         return årgang;
     }
+
+    public double kampHonorar(){
+
+        return 69;
+    }
+
 }
