@@ -27,6 +27,15 @@ public class Kamp {
         return tid;
     }
 
+    public ArrayList<String> afbud() {
+        ArrayList<String> afbud = new ArrayList<>();
+        for(Deltagelse d : deltagelser) {
+            if(d.isAfbud())
+                afbud.add(d.getBegrundelse());
+        }
+        return afbud;
+    }
+
     // composition --> 0..* Deltagelse
     private final ArrayList<Deltagelse> deltagelser = new ArrayList<>();
 
