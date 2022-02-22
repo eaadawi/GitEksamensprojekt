@@ -18,6 +18,8 @@ public class Spiller {
     }
 
     public double kampHonorar(){
+        for (Deltagelse deltagelse: deltagelser)
+
 
         return 69;
     }
