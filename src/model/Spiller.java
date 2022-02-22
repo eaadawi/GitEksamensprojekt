@@ -19,6 +19,15 @@ public class Spiller {
         return årgang;
     }
 
+
+    public double kampHonorar(){
+        for (Deltagelse deltagelse: deltagelser)
+
+
+        return 69;
+    }
+
+
     // association --> 0..* Deltagelse
     private final ArrayList<Deltagelse> deltagelser = new ArrayList<>();
 
@@ -37,4 +46,5 @@ public class Spiller {
         deltagelser.remove(deltagelse);
         deltagelse.spiller = null;
     }
+
 }
